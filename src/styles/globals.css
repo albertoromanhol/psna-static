@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface-white font-body text-ink antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  /* Gold decorative divider */
+  .gold-divider {
+    @apply block h-px w-full;
+    background: linear-gradient(to right, transparent, #C9A84C 30%, #C9A84C 70%, transparent);
+  }
+
+  /* Section containers */
+  .section-white  { @apply bg-surface-white py-16 px-4; }
+  .section-warm   { @apply bg-surface py-16 px-4; }
+  .section-blue   { @apply bg-primary py-16 px-4; }
+
+  /* Content wrapper */
+  .content-wrap { @apply max-w-content mx-auto; }
+}
