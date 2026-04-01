@@ -26,9 +26,6 @@ export function Home() {
         }}
       >
         <div className="absolute inset-0 bg-primary/65" />
-        {/* Subtle cross pattern */}
-        <div className="absolute inset-0 opacity-5"
-             style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17 0h6v40h-6zM0 17h40v6H0z' fill='%23fff'/%3E%3C/svg%3E")` }} />
 
         <div className="relative z-10 max-w-2xl px-4 py-16">
           <p className="text-sm font-medium uppercase tracking-widest text-gold mb-3">
