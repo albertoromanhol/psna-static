@@ -1,20 +1,17 @@
 // ============================================================
 //  FORMS CONFIG — src/data/forms.ts
-//  Formspree endpoint IDs for each form.
-//  1. Go to https://formspree.io and create a free account.
-//  2. Create a new form for each endpoint below.
-//  3. Paste the form ID (e.g. 'xpwzgkdo') in each field.
+//  Email addresses for each form submission.
 // ============================================================
 
 export const formEndpoints = {
   // "Fale Conosco" contact form on /contato
-  contact: '', // TODO: e.g. 'xpwzgkdo'
+  contact: 'pascom.pnsa.ipatinga@gmail.com',
 
   // Prayer request form on /para-voce/oracao
-  prayer: '', // TODO: e.g. 'xpwzgkdo'
+  prayer: 'pascom.pnsa.ipatinga@gmail.com',
 
   // News submission form on /para-voce/noticias
-  news: '', // TODO: e.g. 'xpwzgkdo'
+  news: 'pascom.pnsa.ipatinga@gmail.com',
 }
 
 // Base Formspree URL — do not change

@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { GoldDivider } from '@/components/ui/GoldDivider'
 import { parish } from '@/data/contacts'
-import { masses } from '@/data/schedules'
+import { masses, confessions } from '@/data/schedules'
 import { sacraments } from '@/data/sacraments'
 import { calendarEmbedUrl } from '@/data/parish-info'
 
@@ -58,7 +58,7 @@ export function Home() {
         <div className="content-wrap grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { icon: Clock,          label: 'Próxima Missa',   value: quickMasses[0] ? `${quickMasses[0].day} · ${quickMasses[0].time}` : 'Ver horários', to: '/para-voce/missas' },
-            { icon: Clock,          label: 'Confissões',      value: 'Sábados 15h – 16h45', to: '/para-voce/confissoes' },
+            { icon: Clock,          label: 'Confissões',      value: confessions[0] ? `${confessions[0].day} · ${confessions[0].time}` : 'Ver horários', to: '/para-voce/confissoes' },
             { icon: MessageCircle,  label: 'WhatsApp',        value: parish.phones.whatsapp, to: parish.whatsappUrl, external: true },
             { icon: MapPin,         label: 'Endereço',        value: `${parish.address.street}, ${parish.address.city}/${parish.address.state}`, to: parish.address.mapsLink, external: true },
           ].map(item => {

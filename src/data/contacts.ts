@@ -11,6 +11,8 @@ export const parish = {
   inscEstadual:'Isento',
   inscMunicipal:'2531-03',
   pastor:      'Pe. Marco José de Almeida',
+  vicar:       'Pe. Nivaldo de Souza Aranda',
+  diacono:     'Diác. Elias Pereira da Silva',
 
   address: {
     street:       'Rua Caetés, 495',
@@ -40,14 +42,14 @@ export const parish = {
 
   social: {
     instagram: 'https://www.instagram.com/pnsa.ipatinga/',
-    facebook:  '', // TODO: add Facebook page URL
-    youtube:   '', // TODO: add YouTube channel URL
+    facebook:  'https://www.facebook.com/pnsa.ipatinga',
+    youtube:   'https://www.youtube.com/@pnsa.ipatinga',
   },
 
   // Secretary office hours — update as needed
   secretaryHours: [
-    { days: 'Segunda a Sexta', hours: '08h00 – 12h00 / 14h00 – 18h00' },
-    { days: 'Sábado',          hours: '08h00 – 12h00' },
+    { days: 'Segunda a Sexta', hours: '08h00 – 18h00' },
+    { days: 'Sábado',          hours: 'Fechado' },
     { days: 'Domingo',         hours: 'Fechado' },
   ],
 } as const

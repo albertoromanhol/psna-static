@@ -1,5 +1,12 @@
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import { Layout } from '@/components/layout/Layout'
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => { window.scrollTo(0, 0) }, [pathname])
+  return null
+}
 
 // Pages
 import { Home }          from '@/pages/Home'
@@ -22,6 +29,7 @@ import { Agenda }        from '@/pages/para-voce/Agenda'
 import { SacramentosHub }from '@/pages/para-voce/sacramentos/SacramentosHub'
 import { SacramentPage } from '@/pages/para-voce/sacramentos/SacramentPage'
 import { Taxas }         from '@/pages/para-voce/sacramentos/Taxas'
+import { Dizimistas }    from '@/pages/para-voce/Dizimistas'
 import { Oracao }        from '@/pages/para-voce/Oracao'
 import { Noticias }      from '@/pages/para-voce/Noticias'
 
@@ -31,6 +39,7 @@ import { Contato }       from '@/pages/Contato'
 export default function App() {
   return (
     <Layout>
+      <ScrollToTop />
       <Routes>
         {/* Home */}
         <Route path="/"                               element={<Home />} />
@@ -54,15 +63,20 @@ export default function App() {
         <Route path="/para-voce/confissoes"           element={<Confissoes />} />
         <Route path="/para-voce/elos-liturgicos"      element={<ElosLiturgicos />} />
         <Route path="/para-voce/agenda"               element={<Agenda />} />
+        <Route path="/para-voce/dizimistas"             element={<Dizimistas />} />
         <Route path="/para-voce/oracao"               element={<Oracao />} />
         <Route path="/para-voce/noticias"             element={<Noticias />} />
 
         {/* Sacramentos */}
         <Route path="/para-voce/sacramentos"                    element={<SacramentosHub />} />
-        <Route path="/para-voce/sacramentos/batizados"          element={<SacramentPage id="batizados" />} />
-        <Route path="/para-voce/sacramentos/eucaristia"         element={<SacramentPage id="eucaristia" />} />
+        <Route path="/para-voce/sacramentos/batismo"             element={<SacramentPage id="batismo" />} />
+        <Route path="/para-voce/sacramentos/primeira-eucaristia" element={<SacramentPage id="primeira-eucaristia" />} />
         <Route path="/para-voce/sacramentos/crisma"             element={<SacramentPage id="crisma" />} />
-        <Route path="/para-voce/sacramentos/casamento"          element={<SacramentPage id="casamento" />} />
+        <Route path="/para-voce/sacramentos/matrimonio"         element={<SacramentPage id="matrimonio" />} />
+        {/* legacy redirects */}
+        <Route path="/para-voce/sacramentos/batizados"          element={<Navigate to="/para-voce/sacramentos/batismo" replace />} />
+        <Route path="/para-voce/sacramentos/eucaristia"         element={<Navigate to="/para-voce/sacramentos/primeira-eucaristia" replace />} />
+        <Route path="/para-voce/sacramentos/casamento"          element={<Navigate to="/para-voce/sacramentos/matrimonio" replace />} />
         <Route path="/para-voce/sacramentos/taxas"              element={<Taxas />} />
 
         {/* Mídias Sociais & Contato */}

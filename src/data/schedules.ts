@@ -17,26 +17,33 @@ export interface ConfessionEntry {
 }
 
 // ── Mass schedule ────────────────────────────────────────────
-// TODO: Fill in the actual mass times provided by the parish
 export const masses: MassEntry[] = [
-  { day: 'Segunda-feira', time: '18h30', location: 'Igreja Matriz' },
-  { day: 'Terça-feira',   time: '18h30', location: 'Igreja Matriz' },
-  { day: 'Quarta-feira',  time: '07h00', location: 'Igreja Matriz' },
-  { day: 'Quarta-feira',  time: '18h30', location: 'Igreja Matriz' },
-  { day: 'Quinta-feira',  time: '18h30', location: 'Igreja Matriz' },
-  { day: 'Sexta-feira',   time: '07h00', location: 'Igreja Matriz' },
-  { day: 'Sexta-feira',   time: '18h30', location: 'Igreja Matriz' },
-  { day: 'Sábado',        time: '07h00', location: 'Igreja Matriz' },
-  { day: 'Sábado',        time: '17h00', location: 'Igreja Matriz', note: 'Missa vespertina' },
-  { day: 'Domingo',       time: '07h00', location: 'Igreja Matriz' },
-  { day: 'Domingo',       time: '09h00', location: 'Igreja Matriz' },
-  { day: 'Domingo',       time: '11h00', location: 'Igreja Matriz' },
-  { day: 'Domingo',       time: '18h00', location: 'Igreja Matriz' },
+  // Regular weekly masses
+  { day: 'Quinta-feira', time: '19h30', location: 'Matriz Nossa Sra. Aparecida' },
+  { day: 'Sexta-feira',  time: '06h30', location: 'Matriz Nossa Sra. Aparecida' },
+  { day: 'Sábado',       time: '19h30', location: 'Com. Santo Antônio' },
+  { day: 'Domingo',      time: '07h00', location: 'Matriz Nossa Sra. Aparecida' },
+  { day: 'Domingo',      time: '07h00', location: 'Com. Santo Antônio' },
+  { day: 'Domingo',      time: '08h30', location: 'Com. São José' },
+  { day: 'Domingo',      time: '08h30', location: 'Com. Atos dos Apóstolos' },
+  { day: 'Domingo',      time: '10h00', location: 'Matriz Nossa Sra. Aparecida' },
+  { day: 'Domingo',      time: '10h00', location: 'Com. São João XXIII' },
+  { day: 'Domingo',      time: '16h00', location: 'Com. Divina Providência' },
+  { day: 'Domingo',      time: '18h00', location: 'Com. Atos dos Apóstolos' },
+  { day: 'Domingo',      time: '19h30', location: 'Com. Nossa Sra. da Esperança' },
+  { day: 'Domingo',      time: '19h30', location: 'Matriz Nossa Sra. Aparecida' },
+
+  // Special / periodic masses
+  { day: '1ª Sexta-feira do mês', time: '09h30', location: 'Lar Divina Providência' },
+  { day: '1ª Sexta-feira do mês', time: '19h30', location: 'Matriz Nossa Sra. Aparecida, Com. Atos dos Apóstolos e Com. São João XXIII', note: 'Missa em honra ao Sagrado Coração de Jesus' },
+  { day: '3º Sábado do mês',      time: '18h00', location: 'Matriz Nossa Sra. Aparecida', note: 'Missa em Ação de Graças pelos Dizimistas' },
+  { day: 'Todo dia 12',           time: '12h00', location: 'Matriz Nossa Sra. Aparecida', note: 'Missa votiva mensal' },
 ]
 
 // ── Confession schedule ──────────────────────────────────────
-// TODO: Fill in the actual confession times
 export const confessions: ConfessionEntry[] = [
-  { day: 'Sábado', time: '15h00 – 16h45', local: 'Igreja Matriz' },
-  { day: 'Domingo', time: '30 min antes de cada missa', local: 'Igreja Matriz' },
+  { day: 'Quarta-feira', time: '09h00', local: 'Secretaria Paroquial' },
+  { day: 'Quarta-feira', time: '15h00', local: 'Secretaria Paroquial' },
+  { day: 'Quinta-feira', time: '09h00', local: 'Secretaria Paroquial' },
+  { day: 'Quinta-feira', time: '15h00', local: 'Secretaria Paroquial' },
 ]
