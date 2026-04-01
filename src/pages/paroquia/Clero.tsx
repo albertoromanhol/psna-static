@@ -19,7 +19,7 @@ export function Clero() {
                   <img
                     src={member.photo}
                     alt={member.name}
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-cover object-top"
                     onError={(e) => {
                       const div = (e.target as HTMLImageElement).parentElement!
                       div.innerHTML = `<div class="h-full w-full flex items-center justify-center bg-surface text-ink-muted text-3xl font-heading font-bold">${member.name[0]}</div>`
