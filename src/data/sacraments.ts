@@ -107,7 +107,7 @@ export const sacraments: Sacrament[] = [
 export const feesInfo = {
   title:       'Taxas, Espórtulas e Emolumentos',
   description: 'Os valores a seguir são estabelecidos pela Diocese de Itabira–Coronel Fabriciano.',
-  downloadUrl: '/pdfs/taxas-emolumentos.pdf',
+  downloadUrl: '',
   note:        'Taxas vigentes em 2026, conforme tabela da Diocese de Itabira–Coronel Fabriciano.',
   items: [
     { label: 'Batizado',                                                      value: 'R$ 81,00',  detail: '5% do salário-mínimo' },

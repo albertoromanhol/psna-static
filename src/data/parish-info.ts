@@ -42,9 +42,35 @@ Assim, somos convidados a renovar nossa fé e seguir firmes no Evangelho, certos
 
 // ── Coat of arms ─────────────────────────────────────────────
 export const coatOfArms = {
-  title:       'Brasão da Paróquia',
-  image:       '/images/brasao.png', // TODO: add coat of arms image
-  description: 'TODO: explicação dos elementos simbólicos do brasão da paróquia.',
+  title: 'Brasão da Paróquia',
+  image: '/images/brasao.png',
+  intro: 'A análise do brasão não é apenas pela sua estética, mas pela hierarquia visual e pela carga semântica que cada elemento carrega. O brasão da Paróquia Nossa Senhora Aparecida de Ipatinga-MG é uma peça de identidade visual religiosa que utiliza o simbolismo clássico para transmitir proteção, fé e pertencimento regional. Aqui está uma explicação detalhada dos seus elementos simbólicos:',
+  sections: [
+    {
+      heading: '1. O Formato Circular (Mandorla/Círculo de Unidade)',
+      text: 'O uso do círculo como moldura principal simboliza a perfeição, a eternidade e a unidade. Na iconografia cristã, o círculo não tem começo nem fim, representando a natureza de Deus. Para a paróquia, ele delimita o espaço sagrado e une a comunidade em torno de um centro comum.',
+    },
+    {
+      heading: '2. A Imagem Central: Nossa Senhora Aparecida',
+      text: 'A figura central é a representação fiel da imagem encontrada no Rio Paraíba do Sul. Ela é o "Coração" do brasão. A Cor Escura remete à humildade e à identificação de Maria com o povo brasileiro, especialmente com os mais simples e marginalizados. As Mãos Postas simbolizam a oração incessante e a intercessão pelos fiéis. O Manto Azul representa o céu e a proteção divina, com bordados em dourado que simbolizam a realeza de Maria como Rainha do Céu e da Terra.',
+    },
+    {
+      heading: '3. As Bandeiras no Manto',
+      text: 'Um detalhe heráldico importante no manto de Nossa Senhora Aparecida são as bandeiras do Brasil e do Vaticano. Simbolizam que ela é a Padroeira do Brasil, unindo a identidade nacional à fé católica universal. É a representação da pátria sob o manto da Virgem.',
+    },
+    {
+      heading: '4. A Coroa Imperial',
+      text: 'No topo da imagem, a coroa de ouro cravejada simboliza a Soberania. Ela reforça o título de Rainha, mas também lembra a coroação oficial da imagem em 1904, um marco histórico da devoção no país. Do ponto de vista de design, ela serve como o "ápice" visual, atraindo o olhar para a dignidade da figura.',
+    },
+    {
+      heading: '5. A Tipografia e o Anel Azul (Bordadura)',
+      text: 'A Cor Azul Marinho transmite seriedade, confiança, serenidade e é a cor tradicionalmente associada à Virgem Maria. O uso de uma tipografia com serifa confere um aspecto de tradição, autoridade e respeito. A inclusão de "Ipatinga-MG" na base do círculo ancora a espiritualidade à realidade local, mostrando que a paróquia é o braço daquela devoção naquela cidade específica.',
+    },
+    {
+      heading: 'Resumo',
+      text: 'O brasão é equilibrado e simétrico, o que gera uma sensação de estabilidade e paz. O contraste entre o azul profundo da borda e o dourado da coroa/manto cria um ponto de luz central, garantindo que o observador foque imediatamente na imagem da Padroeira antes de ler as informações textuais.',
+    },
+  ],
 }
 
 // ── CPP ──────────────────────────────────────────────────────
@@ -91,7 +117,7 @@ Além disso, realiza avaliações periódicas das atividades e projetos, garanti
 
 // ── CAEP ─────────────────────────────────────────────────────
 export const caep = {
-  title:       'Conselho de Assuntos Econômicos e Patrimoniais (CAEP)',
+  title:       'Conselho para Assuntos Econômicos Paroquial (CAEP)',
   description: `O Conselho de Assuntos Econômicos Paroquial (CAEP) é um organismo consultivo previsto pelo Direito Canônico (Cân. 537), que auxilia o pároco na administração responsável, transparente e partilhada dos bens da paróquia. Sua missão é zelar pelos recursos materiais, garantindo que sejam bem utilizados em favor da evangelização e da comunidade.
 
 Entre suas principais funções está a elaboração do orçamento anual, o acompanhamento das receitas — como dízimos e doações — e das despesas, além da prestação de contas periódica à diocese e aos fiéis. O CAEP também atua na gestão de obras e investimentos, planejando e acompanhando construções, reformas e manutenções do patrimônio paroquial.

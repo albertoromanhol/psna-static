@@ -21,7 +21,7 @@ export const parish = {
     state:        'MG',
     zip:          '35162-038',
     full:         'Rua Caetés, 495 — Bairro Iguaçu, Ipatinga/MG — CEP 35162-038',
-    mapsEmbed:    '', // TODO: paste Google Maps embed src URL here
+    mapsEmbed:    'https://maps.google.com/maps?q=Rua+Caet%C3%A9s,495,Igua%C3%A7u,Ipatinga,MG&output=embed',
     mapsLink:     'https://maps.google.com/?q=Rua+Caetés+495+Iguaçu+Ipatinga+MG',
   },
 
@@ -31,11 +31,11 @@ export const parish = {
     general:   '(31) 3822-4420',
     pastorals: '(31) 9 8978-3159',
     financial: '(31) 9 7147-0551',
-    whatsapp:  '(31) 9 9899-3276',
+    whatsapp:  '(31) 9 8978-3159',
   },
 
   // WhatsApp click-to-chat link (number without spaces/dashes, with country code)
-  whatsappUrl: 'https://wa.me/5531998993276',
+  whatsappUrl: 'https://wa.me/5531989783159',
 
   // WhatsApp Channel link — replace with the real channel link when created
   whatsappChannelUrl: '', // TODO: add WhatsApp Channel link when created

@@ -92,7 +92,7 @@ export function MidiasSociais() {
               <h2 className="font-heading text-2xl font-semibold text-primary mb-6">Informativo Paroquial</h2>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {newsletters.map(n => (
-                  <a key={n.url} href={n.url} download
+                  <a key={n.url} href={n.url} target="_blank" rel="noopener noreferrer"
                      className="flex items-center gap-3 rounded-lg border border-border bg-white p-4
                                 shadow-sm hover:border-gold hover:shadow-md transition-all">
                     <FileText size={20} className="text-gold shrink-0" />

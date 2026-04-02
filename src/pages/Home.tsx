@@ -115,7 +115,7 @@ export function Home() {
         <div className="content-wrap grid gap-10 items-center lg:grid-cols-2">
           <div className="rounded-xl overflow-hidden shadow-md aspect-square max-w-sm mx-auto bg-primary-light
                           flex items-center justify-center">
-            <img src="/images/nossa-senhora-aparecida.jpg" alt="Nossa Senhora Aparecida"
+            <img src="/images/nossa-senhora.jpg" alt="Nossa Senhora Aparecida"
                  className="w-full h-full object-cover"
                  onError={(e) => {
                    const div = (e.target as HTMLImageElement).parentElement!

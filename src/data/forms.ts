@@ -5,14 +5,14 @@
 
 export const formEndpoints = {
   // "Fale Conosco" contact form on /contato
-  contact: 'pascom.pnsa.ipatinga@gmail.com',
+  contact: 'pnsaparecidaipatingapastoral@dioceseitabira.org.br',
 
   // Prayer request form on /para-voce/oracao
-  prayer: 'pascom.pnsa.ipatinga@gmail.com',
+  prayer: 'pnsaparecidaipatingapastoral@dioceseitabira.org.br',
 
   // News submission form on /para-voce/noticias
-  news: 'pascom.pnsa.ipatinga@gmail.com',
+  news: 'pnsaparecidaipatingapastoral@dioceseitabira.org.br',
 }
 
-// Base Formspree URL — do not change
-export const formspreeBase = 'https://formspree.io/f/'
+// Base Formspree URL — legacy email endpoint (https://formspree.io/{email})
+export const formspreeBase = 'https://formspree.io/'
