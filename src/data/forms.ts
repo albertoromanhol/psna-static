@@ -5,14 +5,14 @@
 
 export const formEndpoints = {
   // "Fale Conosco" contact form on /contato
-  contact: 'pnsaparecidaipatingapastoral@dioceseitabira.org.br',
+  contact: 'xbdpwblz',
 
   // Prayer request form on /para-voce/oracao
-  prayer: 'pnsaparecidaipatingapastoral@dioceseitabira.org.br',
+  prayer: 'xbdpwblz',
 
   // News submission form on /para-voce/noticias
-  news: 'pnsaparecidaipatingapastoral@dioceseitabira.org.br',
+  news: 'xbdpwblz',
 }
 
-// Base Formspree URL — legacy email endpoint (https://formspree.io/{email})
-export const formspreeBase = 'https://formspree.io/'
+// Base Formspree URL — verified form endpoint
+export const formspreeBase = 'https://formspree.io/f/'

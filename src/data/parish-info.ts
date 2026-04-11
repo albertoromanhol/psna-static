@@ -44,31 +44,31 @@ Assim, somos convidados a renovar nossa fé e seguir firmes no Evangelho, certos
 export const coatOfArms = {
   title: 'Brasão da Paróquia',
   image: '/images/brasao.png',
-  intro: 'A análise do brasão não é apenas pela sua estética, mas pela hierarquia visual e pela carga semântica que cada elemento carrega. O brasão da Paróquia Nossa Senhora Aparecida de Ipatinga-MG é uma peça de identidade visual religiosa que utiliza o simbolismo clássico para transmitir proteção, fé e pertencimento regional. Aqui está uma explicação detalhada dos seus elementos simbólicos:',
+  intro: 'A análise do brasão da Paróquia Nossa Senhora Aparecida, em Ipatinga-MG, vai além de sua dimensão estética. Trata-se de uma rica expressão simbólica que comunica a fé, a identidade e o sentido de pertença da comunidade paroquial. Cada elemento presente no brasão foi concebido para transmitir valores espirituais profundos, unindo tradição, devoção e realidade local.',
   sections: [
     {
-      heading: '1. O Formato Circular (Mandorla/Círculo de Unidade)',
-      text: 'O uso do círculo como moldura principal simboliza a perfeição, a eternidade e a unidade. Na iconografia cristã, o círculo não tem começo nem fim, representando a natureza de Deus. Para a paróquia, ele delimita o espaço sagrado e une a comunidade em torno de um centro comum.',
+      heading: '1. O Formato Circular (Unidade e Eternidade)',
+      text: 'O formato circular que envolve o brasão possui grande significado na tradição cristã. Por não ter começo nem fim, o círculo representa a perfeição e a eternidade de Deus. Além disso, simboliza a unidade do povo de Deus reunido em torno de um mesmo centro, delimitando um espaço sagrado no qual a comunidade se reconhece como Igreja viva.',
     },
     {
       heading: '2. A Imagem Central: Nossa Senhora Aparecida',
-      text: 'A figura central é a representação fiel da imagem encontrada no Rio Paraíba do Sul. Ela é o "Coração" do brasão. A Cor Escura remete à humildade e à identificação de Maria com o povo brasileiro, especialmente com os mais simples e marginalizados. As Mãos Postas simbolizam a oração incessante e a intercessão pelos fiéis. O Manto Azul representa o céu e a proteção divina, com bordados em dourado que simbolizam a realeza de Maria como Rainha do Céu e da Terra.',
+      text: 'No centro do brasão encontra-se a imagem de Nossa Senhora Aparecida, padroeira da paróquia, da Diocese de Itabira e Coronel Fabriciano e do Brasil, ocupando o lugar principal e indicando que Maria é o coração da vida comunitária. Sua representação remete à imagem encontrada no Rio Paraíba do Sul, carregando profunda história de fé. A tonalidade escura recorda sua humildade e sua proximidade com os mais simples, reforçando sua identificação com o povo brasileiro. As mãos postas expressam sua constante intercessão pelos fiéis. O manto azul simboliza o céu e a proteção divina, enquanto os detalhes em dourado revelam sua realeza, reconhecendo-a como Rainha do Céu e da Terra.',
     },
     {
-      heading: '3. As Bandeiras no Manto',
-      text: 'Um detalhe heráldico importante no manto de Nossa Senhora Aparecida são as bandeiras do Brasil e do Vaticano. Simbolizam que ela é a Padroeira do Brasil, unindo a identidade nacional à fé católica universal. É a representação da pátria sob o manto da Virgem.',
+      heading: '3. As Bandeiras no Manto (Fé e Identidade Nacional)',
+      text: 'Sobre o manto, destacam-se elementos heráldicos como as bandeiras, especialmente a do Brasil e a do Vaticano. Esses símbolos expressam a união entre a fé católica e a identidade nacional, evidenciando Nossa Senhora Aparecida como padroeira do Brasil e sinal de comunhão com a Igreja universal.',
     },
     {
-      heading: '4. A Coroa Imperial',
-      text: 'No topo da imagem, a coroa de ouro cravejada simboliza a Soberania. Ela reforça o título de Rainha, mas também lembra a coroação oficial da imagem em 1904, um marco histórico da devoção no país. Do ponto de vista de design, ela serve como o "ápice" visual, atraindo o olhar para a dignidade da figura.',
+      heading: '4. A Coroa Imperial (Soberania e Devoção)',
+      text: 'No topo da imagem, a coroa imperial reforça a dignidade e a soberania de Nossa Senhora. Ela recorda a coroação oficial da imagem em 1904, marco importante da devoção mariana no Brasil. Além disso, a coroa exerce função visual de destaque, conduzindo o olhar do observador ao ponto mais elevado do brasão, ressaltando a grandeza da Mãe de Deus.',
     },
     {
-      heading: '5. A Tipografia e o Anel Azul (Bordadura)',
-      text: 'A Cor Azul Marinho transmite seriedade, confiança, serenidade e é a cor tradicionalmente associada à Virgem Maria. O uso de uma tipografia com serifa confere um aspecto de tradição, autoridade e respeito. A inclusão de "Ipatinga-MG" na base do círculo ancora a espiritualidade à realidade local, mostrando que a paróquia é o braço daquela devoção naquela cidade específica.',
+      heading: '5. A Tipografia e a Bordadura (Identidade e Tradição)',
+      text: 'A bordadura em tom azul-marinho, juntamente com a tipografia utilizada, contribui para a harmonia e identidade visual do brasão. O azul, tradicionalmente associado à Virgem Maria, transmite serenidade, confiança e espiritualidade. A tipografia serifada remete à tradição, conferindo sobriedade e respeito ao conjunto. Já a inscrição com o nome da paróquia e a identificação "Ipatinga-MG" estabelece a ligação entre a devoção mariana e a realidade concreta da comunidade, evidenciando que ali se vive, de forma particular, a fé da Igreja.',
     },
     {
-      heading: 'Resumo',
-      text: 'O brasão é equilibrado e simétrico, o que gera uma sensação de estabilidade e paz. O contraste entre o azul profundo da borda e o dourado da coroa/manto cria um ponto de luz central, garantindo que o observador foque imediatamente na imagem da Padroeira antes de ler as informações textuais.',
+      heading: '6. Síntese do Conjunto (Harmonia e Espiritualidade)',
+      text: 'De modo geral, o brasão apresenta equilíbrio e simetria, transmitindo uma sensação de paz e estabilidade. O contraste entre o azul profundo da borda e os elementos dourados cria um destaque visual que direciona o olhar imediatamente para a imagem central de Nossa Senhora Aparecida. Assim, antes mesmo da leitura das palavras, o fiel é conduzido à contemplação da padroeira, reconhecendo nela o centro da vida e da missão da paróquia.',
     },
   ],
 }
@@ -85,32 +85,32 @@ Além disso, realiza avaliações periódicas das atividades e projetos, garanti
     { name: 'Padre Marco José de Almeida', role: 'Pároco' },
     { name: 'Padre Nivaldo de Souza Aranda', role: 'Vigário Paroquial' },
     { name: 'Diác. Elias Pereira da Silva', role: 'Diácono' },
-    { name: 'Cleiton Marcos de Almeida', role: 'Coordenador — Com. Atos dos Apóstolos' },
-    { name: 'Ézio da Silva Cardoso', role: 'Secretário CPP / Coordenador — Com. Nossa Senhora da Esperança' },
-    { name: 'Conceição', role: 'Apostolado da Oração — Com. Nossa Senhora Aparecida' },
-    { name: 'Helena', role: 'Batismo — Com. Nossa Senhora Aparecida' },
-    { name: 'Rejany', role: 'Catequese — Com. Atos dos Apóstolos' },
-    { name: 'Betânea', role: 'Secretária — Com. Atos dos Apóstolos' },
-    { name: 'Jaqueline Celestina de Freitas Moreira', role: 'Coordenadora — Com. Divina Providência' },
-    { name: 'Miriam César Romanhol Moreira', role: 'Secretária — Com. Nossa Senhora Aparecida' },
+    { name: 'Cleiton Marcos de Almeida', role: 'Coordenador CPP, EPAP e da Com. Atos dos Apóstolos' },
+    { name: 'Ézio da Silva Cardoso', role: 'Secretário CPP — Com. Nossa Senhora da Esperança' },
+    { name: 'Antônio Alberto Moreira Pinto', role: 'Conselho para Assuntos Econômicos Paroquial — Com. Nossa Senhora Aparecida' },
     { name: 'Carlos Alberto Marques', role: 'Coordenador — Com. Nossa Senhora Aparecida' },
     { name: 'Dulce Bueno Nunes', role: 'Coordenadora — Com. Santo Antônio' },
-    { name: 'Carmem', role: 'Secretária — Com. Santo Antônio' },
-    { name: 'Waldecy Ramos Lira', role: 'Coordenador — Com. São João XXIII' },
+    { name: 'Ezio da Silva Cardoso', role: 'Coordenador — Com. Nossa Senhora da Esperança' },
+    { name: 'Jaqueline Celestina de Freitas Moreira', role: 'Coordenadora — Com. Divina Providência' },
     { name: 'Viviane Miranda Bonifácio', role: 'Coordenadora — Com. São José' },
-    { name: 'Antônio Alberto', role: 'Conselho para Assuntos Econômicos Paroquial — Com. Nossa Senhora Aparecida' },
+    { name: 'Waldecy Ramos Lira', role: 'Coordenador — Com. São João XXIII' },
+    { name: 'Brígida Maria Ribeiro', role: 'Pastoral da Pessoa Idosa — Com. Nossa Senhora Aparecida' },
+    { name: 'Jordânia Cristina Santos Silva', role: 'Pastoral do Povo de Rua — Com. Nossa Senhora Aparecida' },
+    { name: 'Júlia Rodrigues Estevanato Marques', role: 'Pastoral da Juventude — Com. Santo Antônio' },
+    { name: 'Maria da Consolação Rezende', role: 'Pastoral Familiar — Com. Santo Antônio' },
+    { name: 'Maria Helena Brito do Amaral', role: 'Pastoral do Batismo — Com. Nossa Senhora Aparecida' },
+    { name: 'Maria Irene Leandro Santos', role: 'Pastoral da Comunicação (PASCOM) — Com. Divina Providência' },
+    { name: 'Osmar Marciano Alves', role: 'Pastoral da Música — Com. Nossa Senhora Aparecida' },
+    { name: 'Rejany Maria', role: 'Pastoral Catequética — Com. Atos dos Apóstolos' },
+    { name: 'Rosilene das Graças', role: 'Pastoral da Liturgia — Com. Atos dos Apóstolos' },
     { name: 'Silvia Maria de Souza Silva', role: 'Pastoral do Dízimo — Com. Atos dos Apóstolos' },
-    { name: 'Consolação / Toninho', role: 'Pastoral Familiar — Com. Santo Antônio' },
-    { name: 'João', role: 'Grupo de Oração — Com. Nossa Senhora Aparecida' },
-    { name: 'Júlia', role: 'Juventudes — Com. Santo Antônio' },
-    { name: 'Rosilene', role: 'Pastoral da Liturgia — Com. Atos dos Apóstolos' },
-    { name: 'Rosilene', role: 'Movimentos de Carisma Mariano — Com. Nossa Senhora Aparecida' },
-    { name: 'Irene', role: 'Pastoral da Comunicação (PASCOM)' },
-    { name: 'Brígida', role: 'Pastoral da Pessoa Idosa — Com. Nossa Senhora Aparecida' },
-    { name: 'Jordânia', role: 'Pastoral do Povo de Rua' },
-    { name: 'Lameu', role: 'Grupo de Reflexão — Com. Santo Antônio' },
-    { name: 'Nunes', role: 'Representante Paroquial no COPAR — Com. Nossa Senhora Aparecida' },
-    { name: 'Ana Maria', role: 'Sociedade de São Vicente de Paulo — Com. Nossa Senhora Aparecida' },
+    { name: 'Ana Maria Lacerda Ribeiro', role: 'Sociedade de São Vicente de Paulo — Com. Nossa Senhora Aparecida' },
+    { name: 'Enilza Aparecida Fernandes', role: 'Ministério dos Acólitos e Coroinhas — Com. Nossa Senhora Aparecida' },
+    { name: 'João Paulo', role: 'Grupo de Oração da Renovação Carismática (RCC) — Com. Nossa Senhora Aparecida' },
+    { name: 'José Nunes do Amaral', role: 'Representante Paroquial no COPAR — Com. Nossa Senhora Aparecida' },
+    { name: 'Maria da Consolação Rezende', role: 'Apostolado da Oração — Com. Nossa Senhora Aparecida' },
+    { name: 'Rosilene Alves da Silva Dias', role: 'Movimentos de Carisma Mariano — Com. Nossa Senhora Aparecida' },
+    { name: 'Sebastião Lameu Gonçalves', role: 'Grupo de Reflexão — Com. Santo Antônio' },
   ],
   contact: '', // TODO: contact for CPP
 }
@@ -118,30 +118,49 @@ Além disso, realiza avaliações periódicas das atividades e projetos, garanti
 // ── CAEP ─────────────────────────────────────────────────────
 export const caep = {
   title:       'Conselho para Assuntos Econômicos Paroquial (CAEP)',
-  description: `O Conselho de Assuntos Econômicos Paroquial (CAEP) é um organismo consultivo previsto pelo Direito Canônico (Cân. 537), que auxilia o pároco na administração responsável, transparente e partilhada dos bens da paróquia. Sua missão é zelar pelos recursos materiais, garantindo que sejam bem utilizados em favor da evangelização e da comunidade.
+  description: `O Conselho para Assuntos Econômicos Paroquial (CAEP) é um organismo consultivo previsto pelo Direito Canônico (Cân. 537), que auxilia o pároco na administração responsável, transparente e partilhada dos bens da paróquia. Sua missão é zelar pelos recursos materiais, garantindo que sejam bem utilizados em favor da evangelização e da comunidade.
 
 Entre suas principais funções está a elaboração do orçamento anual, o acompanhamento das receitas — como dízimos e doações — e das despesas, além da prestação de contas periódica à diocese e aos fiéis. O CAEP também atua na gestão de obras e investimentos, planejando e acompanhando construções, reformas e manutenções do patrimônio paroquial.
 
 Formado por leigos comprometidos, o CAEP não é um órgão de decisão pastoral, mas um importante instrumento de apoio administrativo, fundamentado na ética, na responsabilidade e no serviço à comunidade.`,
-  members: [
-    { name: 'Padre Marco José de Almeida', role: 'Pároco da Paróquia Nossa Senhora Aparecida' },
-    { name: 'Antônio Alberto Moreira Pinto', role: 'Coordenador do CAEP' },
-    { name: 'Isabel Maria da Silva', role: 'Primeira Secretária do CAEP' },
-    { name: 'Maria José Bacelar Iwazawa', role: 'Coordenadora Patrimonial (Paroquial)' },
-    { name: 'Glória Fernandes da Silva', role: 'Tesoureira — Com. Divina Providência' },
-    { name: 'Francisco José Sena Pinto / Barbosa', role: 'CAEC — Com. Santo Antônio' },
-    { name: 'Mírian César Romanhol Moreira', role: 'CAEC — Com. Nossa Senhora Aparecida' },
-    { name: 'Natanael Guedes Soares', role: 'Tesoureiro — Com. Nossa Senhora da Esperança' },
-    { name: 'Paulo Edson Mol Pinto', role: 'CAEC — Com. São João XXIII' },
-    { name: 'Randes Ricardo dos Santos', role: 'CAEC — Com. Atos dos Apóstolos' },
-    { name: 'Raquel Domingos Finamore Bertodo', role: 'Tesoureira — Com. São José' },
-    { name: 'Paulo Roberto Malta', role: 'Suplente/Tesoureiro — Com. Nossa Senhora Aparecida' },
-    { name: 'Itamar de Oliveira', role: 'Suplente/Tesoureiro — Com. Santo Antônio' },
-    { name: 'Maria da Penha de Oliveira', role: 'Coordenadora de Materiais e Insumos / Tesoureira — Com. Atos dos Apóstolos' },
-    { name: 'Valéria Falcão Generoso de Oliveira', role: 'Assessora do Planejamento Financeiro' },
-    { name: 'Iara da Fonseca Henriques', role: 'Assessora do Planejamento Financeiro' },
-    { name: 'Padre Nivaldo de Souza Aranda', role: 'Vigário da Paróquia Nossa Senhora Aparecida' },
-    { name: 'Diácono Elias Silva', role: 'Diácono da Paróquia Nossa Senhora Aparecida' },
+  members: [] as { name: string; role: string }[],
+  memberGroups: [
+    {
+      groupTitle: 'Membros Efetivos',
+      members: [
+        { name: 'Padre Marco José de Almeida', role: 'Pároco da Paróquia Nossa Senhora Aparecida' },
+        { name: 'Antônio Alberto Moreira Pinto', role: 'Coordenador do CAEP' },
+        { name: 'Isabel Maria da Silva', role: 'Primeira Secretária do CAEP' },
+        { name: 'Francisco José Sena Pinto', role: 'CAEC — Com. Santo Antônio' },
+        { name: 'Glória Fernandes da Silva', role: 'Tesoureira — Com. Divina Providência' },
+        { name: 'Maria José Bacelar Iwazawa', role: 'Coordenadora Patrimonial' },
+        { name: 'Mírian César Romanhol Moreira', role: 'CAEC — Com. Nossa Senhora Aparecida' },
+        { name: 'Natanael Guedes Soares', role: 'Tesoureiro — Com. Nossa Senhora da Esperança' },
+        { name: 'Paulo Edson Mol Pinto', role: 'Tesoureiro — Com. São João XXIII' },
+        { name: 'Randes Ricardo dos Santos', role: 'CAEC — Com. Atos dos Apóstolos' },
+        { name: 'Raquel Domingos Finamore Bertodo', role: 'Tesoureira — Com. São José' },
+      ],
+    },
+    {
+      groupTitle: 'Assessores',
+      members: [
+        { name: 'Itamar de Oliveira', role: 'Tesoureiro — Com. Santo Antônio' },
+        { name: 'Maria da Penha de Oliveira', role: 'Coordenadora de Materiais e Insumos / Tesoureira — Com. Atos dos Apóstolos' },
+        { name: 'Paulo Roberto Malta', role: 'Tesoureiro — Com. Nossa Senhora Aparecida' },
+        { name: 'Carlos Alberto Marques', role: 'Coordenador — Com. Nossa Senhora Aparecida' },
+        { name: 'Cleiton Marcos de Almeida', role: 'Coordenador — Com. Atos dos Apóstolos e CPP' },
+        { name: 'Dulce Bueno Nunes', role: 'Coordenadora — Com. Santo Antônio' },
+        { name: 'Ezio da Silva Cardoso', role: 'Coordenador — Com. Nossa Senhora da Esperança' },
+        { name: 'Jaqueline Celestina de Freitas Moreira', role: 'Coordenadora — Com. Divina Providência' },
+        { name: 'Viviane Miranda Bonifácio', role: 'Coordenadora — Com. São José' },
+        { name: 'Waldecy Ramos Lira', role: 'Coordenador — Com. São João XXIII' },
+        { name: 'Silvia Maria de Souza Silva', role: 'Coordenadora da Pastoral do Dízimo' },
+        { name: 'Padre Nivaldo de Souza Aranda', role: 'Vigário da Paróquia Nossa Senhora Aparecida' },
+        { name: 'Diácono Elias Silva', role: 'Diácono da Paróquia Nossa Senhora Aparecida' },
+        { name: 'Valéria Falcão Generoso de Oliveira', role: 'Assessora do Planejamento Financeiro' },
+        { name: 'Iara da Fonseca Henriques', role: 'Assessora do Planejamento Financeiro' },
+      ],
+    },
   ],
   contact: '', // TODO: contact for CAEP
 }
@@ -163,4 +182,4 @@ export const liturgicalLinks = {
 }
 
 // ── Google Calendar ──────────────────────────────────────────
-export const calendarEmbedUrl = 'https://calendar.google.com/calendar/embed?src=67fd3c60b9aefad308c482d73ccd514e2606442d237fb3fb39f36a0372fb1b87%40group.calendar.google.com&ctz=America%2FSao_Paulo'
+export const calendarEmbedUrl = 'https://calendar.google.com/calendar/embed?src=67fd3c60b9aefad308c482d73ccd514e2606442d237fb3fb39f36a0372fb1b87%40group.calendar.google.com&ctz=America%2FSao_Paulo&hl=pt-BR&mode=AGENDA'

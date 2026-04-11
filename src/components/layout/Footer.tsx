@@ -12,8 +12,8 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Col 1 — identity */}
           <div>
-            <img src="/logo.jpeg" alt={parish.name}
-                 className="h-12 w-auto mb-4 brightness-0 invert"
+            <img src="/images/nossa-senhora.jpg" alt="Nossa Senhora Aparecida"
+                 className="h-16 w-16 rounded-full object-cover mb-4 border-2 border-gold/40"
                  onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
             <h3 className="font-heading text-lg font-semibold leading-snug mb-2">{parish.name}</h3>
             <p className="text-sm text-white/70">Diocese de Itabira–Coronel Fabriciano</p>

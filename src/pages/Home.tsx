@@ -10,10 +10,35 @@ import { calendarEmbedUrl } from '@/data/parish-info'
 
 const sacramentIcons = [Droplets, Flame, Heart, Church]
 
-// Show only the next few masses for the quick bar
-const quickMasses = masses.slice(0, 4)
+const DAY_INDEX: Record<string, number> = {
+  'Domingo': 0, 'Segunda-feira': 1, 'Terça-feira': 2,
+  'Quarta-feira': 3, 'Quinta-feira': 4, 'Sexta-feira': 5, 'Sábado': 6,
+}
+
+function parseTime(t: string): number {
+  const [h, m] = t.replace('h', ':').split(':').map(Number)
+  return h * 60 + (m || 0)
+}
+
+function getNext<T extends { day: string; time: string }>(entries: T[]): T | undefined {
+  const now = new Date()
+  const currentDay = now.getDay()
+  const currentMinutes = now.getHours() * 60 + now.getMinutes()
+  const weekly = entries.filter(e => DAY_INDEX[e.day] !== undefined)
+  if (!weekly.length) return undefined
+  const sorted = weekly
+    .map(e => {
+      let diff = (DAY_INDEX[e.day] - currentDay + 7) % 7
+      if (diff === 0 && parseTime(e.time) <= currentMinutes) diff = 7
+      return { entry: e, sortKey: diff * 1440 + parseTime(e.time) }
+    })
+    .sort((a, b) => a.sortKey - b.sortKey)
+  return sorted[0]?.entry
+}
 
 export function Home() {
+  const nextMass = getNext(masses)
+  const nextConfession = getNext(confessions)
   return (
     <>
       {/* ── Hero ───────────────────────────────────────────── */}
@@ -54,8 +79,8 @@ export function Home() {
       <section className="bg-gold px-4 py-4">
         <div className="content-wrap grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { icon: Clock,          label: 'Próxima Missa',   value: quickMasses[0] ? `${quickMasses[0].day} · ${quickMasses[0].time}` : 'Ver horários', to: '/para-voce/missas' },
-            { icon: Clock,          label: 'Confissões',      value: confessions[0] ? `${confessions[0].day} · ${confessions[0].time}` : 'Ver horários', to: '/para-voce/confissoes' },
+            { icon: Clock,          label: 'Próxima Missa',   value: nextMass ? `${nextMass.day} · ${nextMass.time}` : 'Ver horários', to: '/para-voce/missas' },
+            { icon: Clock,          label: 'Confissões',      value: nextConfession ? `${nextConfession.day} · ${nextConfession.time}` : 'Ver horários', to: '/para-voce/confissoes' },
             { icon: MessageCircle,  label: 'WhatsApp',        value: parish.phones.whatsapp, to: parish.whatsappUrl, external: true },
             { icon: MapPin,         label: 'Endereço',        value: `${parish.address.street}, ${parish.address.city}/${parish.address.state}`, to: parish.address.mapsLink, external: true },
           ].map(item => {
