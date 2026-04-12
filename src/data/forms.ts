@@ -5,13 +5,13 @@
 
 export const formEndpoints = {
   // "Fale Conosco" contact form on /contato
-  contact: 'xbdpwblz',
+  contact: 'xojyalwj',
 
   // Prayer request form on /para-voce/oracao
-  prayer: 'xbdpwblz',
+  prayer: 'xojyalwj',
 
   // News submission form on /para-voce/noticias
-  news: 'xbdpwblz',
+  news: 'xojyalwj',
 }
 
 // Base Formspree URL — verified form endpoint
