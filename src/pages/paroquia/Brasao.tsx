@@ -9,9 +9,9 @@ export function Brasao() {
       <section className="section-white">
         <div className="content-wrap max-w-2xl">
           <GoldDivider icon className="mb-10 mx-auto" />
-          <div className="mx-auto mb-10 max-w-sm rounded-xl border border-border bg-surface p-8 shadow-sm">
+          <div className="mx-auto mb-10 max-w-lg rounded-xl border border-border bg-surface p-8 shadow-sm">
             <img src={coatOfArms.image} alt={coatOfArms.title}
-                 className="mx-auto max-h-72 w-auto"
+                 className="mx-auto w-full max-h-[480px] object-contain"
                  onError={(e) => {
                    (e.target as HTMLImageElement).parentElement!.innerHTML =
                      '<p class="text-ink-muted text-sm py-12 text-center">Brasão a ser inserido</p>'

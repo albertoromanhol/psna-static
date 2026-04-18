@@ -201,13 +201,12 @@ export function Home() {
       {/* ── Dízimo ─────────────────────────────────────────── */}
       <section className="section-blue">
         <div className="content-wrap grid gap-10 items-center lg:grid-cols-2">
-          <div className="rounded-xl overflow-hidden shadow-md max-w-sm mx-auto">
+          <div className="rounded-xl overflow-hidden shadow-md w-full mx-auto">
             <img src="/images/arte-dizimo.png" alt="Seja um Dizimista"
                  className="w-full h-auto object-contain"
                  onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
           </div>
           <div className="text-white text-center lg:text-left">
-            <p className="text-sm font-medium uppercase tracking-widest text-gold mb-2">Corresponsabilidade</p>
             <h2 className="font-heading text-3xl font-bold mb-3">Seja um Dizimista</h2>
             <div className="h-0.5 w-16 bg-gold mb-5 mx-auto lg:mx-0" />
             <p className="text-white/80 leading-relaxed mb-6">

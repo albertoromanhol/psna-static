@@ -32,9 +32,9 @@ export function Comunidades() {
           {community && (
             <div>
               {community.photo && (
-                <div className="rounded-xl overflow-hidden border border-border shadow-sm mb-6 aspect-video bg-surface">
+                <div className="rounded-xl overflow-hidden border border-border shadow-sm mb-6 aspect-video bg-surface flex items-center justify-center">
                   <img src={community.photo} alt={community.name}
-                       className="w-full h-full object-cover object-top" />
+                       className="w-full h-full object-contain" />
                 </div>
               )}
               <h2 className="font-heading text-2xl font-semibold text-primary mb-2">{community.name}</h2>
