@@ -7,7 +7,7 @@
 // ── Parish history ───────────────────────────────────────────
 export const history = {
   title: 'História da Paróquia',
-  text: `A Paróquia Nossa Senhora Aparecida, com sede no bairro Iguaçu, em Ipatinga, foi criada em 1º de janeiro de 1999, desmembrada da Paróquia Cristo Rei, por Dom Lelis Lara. Seu primeiro pároco foi o Pe. Luiz Carlos de Castro (Buião), juntamente com vigários paroquiais, reunindo inicialmente 29 comunidades. Em 2000, assumiu como pároco o Pe. José Miranda, que conduziu a paróquia até seu falecimento em 2006, sendo sucedido pelo Pe. José Geraldo da Silva Reis. Com o crescimento da cidade, ocorreram desmembramentos importantes: em 2004 surgiu a Paróquia São Geraldo; em 2009, as Paróquias São Pedro e Senhor do Bonfim, reduzindo o número de comunidades. Nos anos seguintes, a paróquia foi conduzida por diferentes párocos, entre eles o Pe. Aloizio Vieira e, posteriormente, o Pe. Alex Banza. Em 2023, assumiu como pároco o Padre Marco José de Almeida, com o Padre Nivaldo de Souza Aranda como vigário paroquial. Em 2024, foi implantado o Caixa Único Paroquial, fortalecendo a comunhão e a partilha, além da celebração do Jubileu de Prata, que marcou a história da paróquia. Já em 2025, destacaram-se melhorias estruturais e o fortalecimento de movimentos pastorais. Atualmente, a paróquia conta com sete comunidades nos bairros Iguaçu, Ferroviários e Ideal, mantendo viva sua missão evangelizadora. Ao longo de mais de 25 anos, segue firme no anúncio do Evangelho, confiando na proteção de Nossa Senhora Aparecida e na ação do Espírito Santo.`,
+  text: `A Paróquia Nossa Senhora Aparecida, com sede no bairro Iguaçu, em Ipatinga, foi criada em 1º de janeiro de 1999, desmembrada da Paróquia Cristo Rei, por Dom Lelis Lara. Seu primeiro pároco foi o Pe. Luiz Carlos de Castro (Buião), juntamente com vigários paroquiais, reunindo inicialmente 29 comunidades. Em 2000, assumiu como pároco o Pe. José Miranda, que conduziu a paróquia até seu falecimento em 2006, sendo sucedido pelo Pe. José Geraldo da Silva Reis. Com o crescimento da cidade, ocorreram desmembramentos importantes: em 2004 surgiu a Paróquia São Geraldo; em 2009, as Paróquias São Pedro e Senhor do Bonfim, reduzindo o número de comunidades. Nos anos seguintes, a paróquia foi conduzida por diferentes párocos, entre eles o Pe. Aloizio Vieira e, posteriormente, o Pe. Alex Banza. Em 17 de fevereiro de 2023, assumiu como pároco o Padre Marco José de Almeida e como colaborador paroquial o Padre Raimundo Vieira da Rocha que ficou até fevereiro de 2024 quando chegou o Padre Nivaldo de Souza Aranda como vigário paroquial. Em 2024, foi implantado o Caixa Único Paroquial, fortalecendo a comunhão e a partilha, além da celebração do Jubileu de Prata, que marcou a história da paróquia. Já em 2025, destacaram-se melhorias estruturais e o fortalecimento de movimentos pastorais. Atualmente, a paróquia conta com sete comunidades nos bairros Iguaçu, Ferroviários e Ideal, mantendo viva sua missão evangelizadora. Ao longo de mais de 25 anos, segue firme no anúncio do Evangelho, confiando na proteção de Nossa Senhora Aparecida e na ação do Espírito Santo.`,
   // Optional: a list of milestones for a timeline component
   milestones: [
     { year: '1999', event: 'Criação da Paróquia Nossa Senhora Aparecida, desmembrada da Paróquia Cristo Rei, por Dom Lelis Lara. Primeiro pároco: Pe. Luiz Carlos de Castro (Buião).' },
@@ -15,10 +15,11 @@ export const history = {
     { year: '2004', event: 'Primeira Visita Pastoral (Dom Odilon Guimarães Moreira). Desmembramento: criação da Paróquia São Geraldo.' },
     { year: '2006', event: 'Falecimento do Pe. José Miranda. Pe. José Geraldo da Silva Reis assume como administrador e pároco.' },
     { year: '2009', event: 'Criação das Paróquias São Pedro e Senhor do Bonfim, reordenamento territorial.' },
+    { year: '2014', event: 'Padre Aloisio Vieira assume como pároco em março.' },
     { year: '2016', event: 'Ordenação do Diácono Elias Silva.' },
     { year: '2021', event: 'Pe. Alex Banza Ilunga assume como pároco.' },
-    { year: '2023', event: 'Pe. Marco José de Almeida assume como pároco. Pe. Nivaldo de Souza Aranda como vigário paroquial.' },
-    { year: '2024', event: "Implantação do Caixa Único Paroquial. Jubileu de Prata — 25 anos da paróquia (tema: 'Com Maria, jubilosos peregrinos da esperança')." },
+    { year: '2023', event: 'Pe. Marco José de Almeida assume como pároco em fevereiro, juntamente Pe. Raimundo Vieira da Rocha como colaborador Paroquial.' },
+    { year: '2024', event: "Pe. Nivaldo de Souza Aranda assume como vigário paroquial em fevereiro. Implantação do Caixa Único Paroquial. Jubileu de Prata — 25 anos da paróquia." },
     { year: '2025', event: 'Entronização da imagem fac-símile de Nossa Senhora Aparecida, presidida pelo Cardeal Emérito Dom Raymundo Damasceno (12 de fevereiro). Oficialização da Comunidade Nossa Senhora da Esperança (23 de abril).' },
   ],
   photo: '/images/historia-paroquia.jpg',
@@ -37,38 +38,38 @@ Nossa Senhora Aparecida nos conduz a Cristo, ensinando a viver a humildade, a co
 
 Assim, somos convidados a renovar nossa fé e seguir firmes no Evangelho, certos de que Maria sempre nos conduz ao seu Filho, Jesus Cristo.`,
   novenaUrl:   '', // TODO: link to novena PDF or external page
-  photo:       '/images/nossa-senhora.jpg',
+  photo:       '/images/ImagemNSAp_2026.png',
 }
 
-// ── Coat of arms ─────────────────────────────────────────────
+// ── Coat of arms / Visual Identity ───────────────────────────
 export const coatOfArms = {
-  title: 'Brasão da Paróquia',
-  image: '/images/brasao.png',
-  intro: 'A análise do brasão da Paróquia Nossa Senhora Aparecida, em Ipatinga-MG, vai além de sua dimensão estética. Trata-se de uma rica expressão simbólica que comunica a fé, a identidade e o sentido de pertença da comunidade paroquial. Cada elemento presente no brasão foi concebido para transmitir valores espirituais profundos, unindo tradição, devoção e realidade local.',
+  title: 'Identidade Visual da Paróquia',
+  image: '/images/Logo_2026_Transparente.png',
+  intro: 'A análise da identidade visual da Paróquia Nossa Senhora Aparecida, em Ipatinga, vai além de sua dimensão estética. Trata-se de uma rica expressão simbólica que comunica a fé, a identidade e o sentido de pertença da comunidade paroquial. Cada elemento presente na identidade visual foi concebido para transmitir valores espirituais profundos, unindo tradição, devoção e realidade local.',
   sections: [
     {
       heading: '1. O Formato Circular (Unidade e Eternidade)',
-      text: 'O formato circular que envolve o brasão possui grande significado na tradição cristã. Por não ter começo nem fim, o círculo representa a perfeição e a eternidade de Deus. Além disso, simboliza a unidade do povo de Deus reunido em torno de um mesmo centro, delimitando um espaço sagrado no qual a comunidade se reconhece como Igreja viva.',
+      text: 'O formato circular que envolve a identidade visual possui grande significado na tradição cristã. Por não ter começo nem fim, o círculo representa a perfeição e a eternidade de Deus. Além disso, simboliza a unidade do povo de Deus reunido em torno de um mesmo centro, delimitando um espaço sagrado no qual a comunidade se reconhece como Igreja viva.',
     },
     {
       heading: '2. A Imagem Central: Nossa Senhora Aparecida',
-      text: 'No centro do brasão encontra-se a imagem de Nossa Senhora Aparecida, padroeira da paróquia, da Diocese de Itabira e Coronel Fabriciano e do Brasil, ocupando o lugar principal e indicando que Maria é o coração da vida comunitária. Sua representação remete à imagem encontrada no Rio Paraíba do Sul, carregando profunda história de fé. A tonalidade escura recorda sua humildade e sua proximidade com os mais simples, reforçando sua identificação com o povo brasileiro. As mãos postas expressam sua constante intercessão pelos fiéis. O manto azul simboliza o céu e a proteção divina, enquanto os detalhes em dourado revelam sua realeza, reconhecendo-a como Rainha do Céu e da Terra.',
+      text: 'No centro da identidade visual encontra-se a imagem de Nossa Senhora Aparecida, padroeira da paróquia, da Diocese de Itabira-Fabriciano e do Brasil, ocupando o lugar principal e indicando que Maria é o coração da vida comunitária. Sua representação remete à imagem encontrada no Rio Paraíba do Sul, carregando profunda história de fé. A tonalidade escura recorda sua humildade e proximidade com os mais simples, reforçando sua identificação com o povo brasileiro. As mãos postas expressam sua constante intercessão pelos fiéis. O manto azul simboliza o céu e a proteção divina, enquanto os detalhes em dourado revelam sua realeza, reconhecendo-a como Rainha do Céu e da Terra.',
     },
     {
       heading: '3. As Bandeiras no Manto (Fé e Identidade Nacional)',
-      text: 'Sobre o manto, destacam-se elementos heráldicos como as bandeiras, especialmente a do Brasil e a do Vaticano. Esses símbolos expressam a união entre a fé católica e a identidade nacional, evidenciando Nossa Senhora Aparecida como padroeira do Brasil e sinal de comunhão com a Igreja universal.',
+      text: 'Sobre o manto, destacam-se elementos simbólicos como as bandeiras, especialmente a do Brasil e a do Vaticano. Esses símbolos expressam a união entre a fé católica e a identidade nacional, evidenciando Nossa Senhora Aparecida como padroeira do Brasil e sinal de comunhão com a Igreja universal.',
     },
     {
       heading: '4. A Coroa Imperial (Soberania e Devoção)',
-      text: 'No topo da imagem, a coroa imperial reforça a dignidade e a soberania de Nossa Senhora. Ela recorda a coroação oficial da imagem em 1904, marco importante da devoção mariana no Brasil. Além disso, a coroa exerce função visual de destaque, conduzindo o olhar do observador ao ponto mais elevado do brasão, ressaltando a grandeza da Mãe de Deus.',
+      text: 'No topo da imagem, a coroa imperial reforça a dignidade e a soberania de Nossa Senhora. Ela recorda a coroação oficial da imagem em 1904, marco importante da devoção mariana no Brasil. Além disso, a coroa exerce função visual de destaque, conduzindo o olhar do observador ao ponto mais elevado da identidade visual, ressaltando a grandeza da Mãe de Deus.',
     },
     {
       heading: '5. A Tipografia e a Bordadura (Identidade e Tradição)',
-      text: 'A bordadura em tom azul-marinho, juntamente com a tipografia utilizada, contribui para a harmonia e identidade visual do brasão. O azul, tradicionalmente associado à Virgem Maria, transmite serenidade, confiança e espiritualidade. A tipografia serifada remete à tradição, conferindo sobriedade e respeito ao conjunto. Já a inscrição com o nome da paróquia e a identificação "Ipatinga-MG" estabelece a ligação entre a devoção mariana e a realidade concreta da comunidade, evidenciando que ali se vive, de forma particular, a fé da Igreja.',
+      text: 'A bordadura em tom azul-marinho, juntamente com a tipografia utilizada, contribui para a harmonia e identidade visual da composição. O azul, tradicionalmente associado à Virgem Maria, transmite serenidade, confiança e espiritualidade. A tipografia serifada remete à tradição, conferindo sobriedade e respeito ao conjunto. Já a inscrição com o nome da paróquia e a identificação "Ipatinga-MG" estabelece a ligação entre a devoção mariana e a realidade concreta da comunidade, evidenciando que ali se vive, de forma particular, a fé da Igreja.',
     },
     {
       heading: '6. Síntese do Conjunto (Harmonia e Espiritualidade)',
-      text: 'De modo geral, o brasão apresenta equilíbrio e simetria, transmitindo uma sensação de paz e estabilidade. O contraste entre o azul profundo da borda e os elementos dourados cria um destaque visual que direciona o olhar imediatamente para a imagem central de Nossa Senhora Aparecida. Assim, antes mesmo da leitura das palavras, o fiel é conduzido à contemplação da padroeira, reconhecendo nela o centro da vida e da missão da paróquia.',
+      text: 'De modo geral, a identidade visual apresenta equilíbrio e simetria, transmitindo uma sensação de paz e estabilidade. O contraste entre o azul profundo da borda e os elementos dourados cria um destaque visual que direciona o olhar imediatamente para a imagem central de Nossa Senhora Aparecida. Assim, antes mesmo da leitura das palavras, o fiel é conduzido à contemplação da padroeira, reconhecendo nela o centro da vida e da missão da paróquia.',
     },
   ],
 }

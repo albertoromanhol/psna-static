@@ -27,6 +27,7 @@ export function Contato() {
               endpointId={formEndpoints.contact}
               fields={fields}
               submitLabel="Enviar Mensagem"
+              emailSubject="Fale Conosco"
             />
           </div>
 
@@ -55,9 +56,10 @@ export function Contato() {
                 <div className="space-y-1">
                   <p className="text-sm font-medium text-ink">Telefones</p>
                   {[
-                    { label: 'Geral',      val: parish.phones.general },
-                    { label: 'Pastorais',  val: parish.phones.pastorals },
-                    { label: 'Financeiro', val: parish.phones.financial },
+                    { label: 'Geral',                    val: parish.phones.general },
+                    { label: 'Pastorais',                val: parish.phones.pastorals },
+                    { label: 'Financeiro',               val: parish.phones.financial },
+                    { label: 'Pastoral da Comunicação',  val: parish.phones.communication },
                   ].map(p => (
                     <p key={p.label} className="text-sm text-ink-muted">
                       <span className="text-ink">{p.label}:</span>{' '}

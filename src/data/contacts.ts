@@ -28,10 +28,11 @@ export const parish = {
   email:        'pnsaparecidaipatinga@dioceseitabira.org.br',
 
   phones: {
-    general:   '(31) 3822-4420',
-    pastorals: '(31) 9 8978-3159',
-    financial: '(31) 9 7147-0551',
-    whatsapp:  '(31) 9 8978-3159',
+    general:       '(31) 3822-4420',
+    pastorals:     '(31) 9 8978-3159',
+    financial:     '(31) 9 7147-0551',
+    whatsapp:      '(31) 9 8978-3159',
+    communication: '(31) 9 9899-3276',
   },
 
   // WhatsApp click-to-chat link (number without spaces/dashes, with country code)

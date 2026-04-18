@@ -25,7 +25,7 @@ export const communities: Community[] = [
   {
     id:      'nossa-senhora-aparecida',
     name:    'Comunidade Nossa Senhora Aparecida',
-    photo:   '/images/comunidades/nossa-senhora-aparecida.jpg',
+    photo:   '/images/Matriz_2026.png',
     address: 'Rua Caetés, 455 — Iguaçu, Ipatinga/MG — CEP 35.162-038',
     mapsLink:  'https://www.google.com/maps/search/?api=1&query=Rua+Caeté,455,Iguaçu,Ipatinga,MG',
     mapsEmbed: 'https://maps.google.com/maps?q=Rua+Caet%C3%A9s,455,Igua%C3%A7u,Ipatinga,MG&output=embed',
@@ -37,7 +37,7 @@ export const communities: Community[] = [
   {
     id:      'divina-providencia',
     name:    'Comunidade Divina Providência',
-    photo:   '/images/comunidades/divina-providencia.png',
+    photo:   '/images/Divina_2026.png',
     address: 'Rua Tupiniquins, 95 — Iguaçu, Ipatinga/MG — CEP 35.162-138',
     mapsLink:  'https://www.google.com/maps/search/?api=1&query=Rua+Tupiniquins,95,Iguaçu,Ipatinga,MG',
     mapsEmbed: 'https://maps.google.com/maps?q=Rua+Tupiniquins,95,Igua%C3%A7u,Ipatinga,MG&output=embed',

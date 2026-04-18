@@ -36,6 +36,7 @@ export function Oracao() {
             fields={fields}
             submitLabel="Enviar Pedido de Oração"
             successMessage="Sua intenção foi recebida! Você estará em nossas orações."
+            emailSubject="Pedido de Oração"
           />
         </div>
       </section>

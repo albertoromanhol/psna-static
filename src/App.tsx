@@ -35,6 +35,7 @@ import { Noticias }      from '@/pages/para-voce/Noticias'
 
 import { MidiasSociais } from '@/pages/MidiasSociais'
 import { Contato }       from '@/pages/Contato'
+import { Doacao }        from '@/pages/Doacao'
 
 export default function App() {
   return (
@@ -78,6 +79,9 @@ export default function App() {
         <Route path="/para-voce/sacramentos/eucaristia"         element={<Navigate to="/para-voce/sacramentos/primeira-eucaristia" replace />} />
         <Route path="/para-voce/sacramentos/casamento"          element={<Navigate to="/para-voce/sacramentos/matrimonio" replace />} />
         <Route path="/para-voce/sacramentos/taxas"              element={<Taxas />} />
+
+        {/* Doação */}
+        <Route path="/doacao"                         element={<Doacao />} />
 
         {/* Mídias Sociais & Contato */}
         <Route path="/midias-sociais"                 element={<MidiasSociais />} />

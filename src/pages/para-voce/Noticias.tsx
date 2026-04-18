@@ -27,6 +27,7 @@ export function Noticias() {
             fields={fields}
             submitLabel="Enviar Notícia"
             successMessage="Notícia recebida! Nossa equipe de comunicação irá analisá-la."
+            emailSubject="Enviar Notícias"
           />
         </div>
       </section>

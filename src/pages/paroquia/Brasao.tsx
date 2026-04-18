@@ -5,7 +5,7 @@ import { coatOfArms } from '@/data/parish-info'
 export function Brasao() {
   return (
     <>
-      <PageHero title={coatOfArms.title} small />
+      <PageHero title="Identidade Visual Institucional" small />
       <section className="section-white">
         <div className="content-wrap max-w-2xl">
           <GoldDivider icon className="mb-10 mx-auto" />

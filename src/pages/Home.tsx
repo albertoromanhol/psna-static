@@ -125,7 +125,7 @@ export function Home() {
             </Button>
           </div>
           <div className="rounded-xl overflow-hidden shadow-md aspect-[4/3] bg-surface flex items-center justify-center">
-            <img src="/church.jpeg" alt="Igreja Matriz — Paróquia Nossa Senhora Aparecida"
+            <img src="/images/Matriz_2026.png" alt="Igreja Matriz — Paróquia Nossa Senhora Aparecida"
                  className="w-full h-full object-cover"
                  onError={(e) => {
                    const div = (e.target as HTMLImageElement).parentElement!
@@ -138,13 +138,13 @@ export function Home() {
       {/* ── Patron saint highlight ─────────────────────────── */}
       <section className="section-blue">
         <div className="content-wrap grid gap-10 items-center lg:grid-cols-2">
-          <div className="rounded-xl overflow-hidden shadow-md aspect-square max-w-sm mx-auto bg-primary-light
+          <div className="rounded-xl overflow-hidden shadow-md max-w-xs mx-auto bg-primary-light
                           flex items-center justify-center">
-            <img src="/images/nossa-senhora.jpg" alt="Nossa Senhora Aparecida"
-                 className="w-full h-full object-cover"
+            <img src="/images/ImagemNSAp_2026.png" alt="Nossa Senhora Aparecida"
+                 className="w-full h-auto object-contain"
                  onError={(e) => {
                    const div = (e.target as HTMLImageElement).parentElement!
-                   div.innerHTML = '<span class="text-white/50 text-sm">Imagem de Nossa Senhora</span>'
+                   div.innerHTML = '<span class="text-white/50 text-sm p-12 block">Imagem de Nossa Senhora</span>'
                  }} />
           </div>
           <div className="text-white">
@@ -194,6 +194,32 @@ export function Home() {
                 </Link>
               )
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Dízimo ─────────────────────────────────────────── */}
+      <section className="section-blue">
+        <div className="content-wrap grid gap-10 items-center lg:grid-cols-2">
+          <div className="rounded-xl overflow-hidden shadow-md max-w-sm mx-auto">
+            <img src="/images/arte-dizimo.png" alt="Seja um Dizimista"
+                 className="w-full h-auto object-contain"
+                 onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+          </div>
+          <div className="text-white text-center lg:text-left">
+            <p className="text-sm font-medium uppercase tracking-widest text-gold mb-2">Corresponsabilidade</p>
+            <h2 className="font-heading text-3xl font-bold mb-3">Seja um Dizimista</h2>
+            <div className="h-0.5 w-16 bg-gold mb-5 mx-auto lg:mx-0" />
+            <p className="text-white/80 leading-relaxed mb-6">
+              O dízimo é um ato de fé e amor à Igreja. Ao dizimar, você participa ativamente da missão
+              evangelizadora da nossa paróquia, sustentando as obras de caridade e as atividades pastorais.
+              Seja instrumento de Deus e fortaleça nossa comunidade!
+            </p>
+            <Button asChild variant="gold">
+              <a href="https://forms.gle/MNZUYaS5pAWNXrMC8" target="_blank" rel="noopener noreferrer">
+                SIM, QUERO SER DIZIMISTA!
+              </a>
+            </Button>
           </div>
         </div>
       </section>

@@ -7,7 +7,7 @@ const paroquiaLinks = [
   { to: '/paroquia/historia',    label: 'História' },
   { to: '/paroquia/padroeira',   label: 'Padroeira' },
   { to: '/paroquia/clero',       label: 'Clero' },
-  { to: '/paroquia/brasao',      label: 'Brasão' },
+  { to: '/paroquia/brasao',      label: 'Identidade Visual' },
   { to: '/paroquia/comunidades', label: 'Comunidades' },
   { to: '/paroquia/cpp',         label: 'CPP' },
   { to: '/paroquia/caep',        label: 'CAEP' },
@@ -124,6 +124,17 @@ export function Navbar() {
             </li>
 
             <li>
+              <NavLink to="/doacao"
+                className={({ isActive }) =>
+                  `px-3 py-2 text-sm font-medium rounded-md transition-colors
+                   ${isActive ? 'text-primary' : 'text-ink hover:text-primary hover:bg-surface'}`
+                }
+              >
+                Doação
+              </NavLink>
+            </li>
+
+            <li>
               <NavLink to="/midias-sociais"
                 className={({ isActive }) =>
                   `px-3 py-2 text-sm font-medium rounded-md transition-colors
@@ -216,6 +227,13 @@ export function Navbar() {
               )}
             </li>
 
+            <li>
+              <NavLink to="/doacao" onClick={() => setMobileOpen(false)}
+                className="block rounded-md px-3 py-2 text-sm font-medium text-ink hover:bg-surface"
+              >
+                Doação
+              </NavLink>
+            </li>
             <li>
               <NavLink to="/midias-sociais" onClick={() => setMobileOpen(false)}
                 className="block rounded-md px-3 py-2 text-sm font-medium text-ink hover:bg-surface"

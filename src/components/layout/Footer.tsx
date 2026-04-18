@@ -12,8 +12,8 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Col 1 — identity */}
           <div>
-            <img src="/images/nossa-senhora.jpg" alt="Nossa Senhora Aparecida"
-                 className="h-16 w-16 rounded-full object-cover mb-4 border-2 border-gold/40"
+            <img src="/images/ImagemNSAp_2026.png" alt="Nossa Senhora Aparecida"
+                 className="h-16 w-16 rounded-full object-cover object-top mb-4 border-2 border-gold/40"
                  onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
             <h3 className="font-heading text-lg font-semibold leading-snug mb-2">{parish.name}</h3>
             <p className="text-sm text-white/70">Diocese de Itabira–Coronel Fabriciano</p>
@@ -82,6 +82,14 @@ export function Footer() {
                 <MessageCircle size={15} className="shrink-0 text-gold" />
                 <a href={parish.whatsappUrl} target="_blank" rel="noopener noreferrer"
                    className="hover:text-gold transition-colors">{parish.phones.whatsapp}</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone size={15} className="shrink-0 text-gold" />
+                <span>
+                  <span className="text-white/50 text-xs">Pastoral da Comunicação: </span>
+                  <a href={`tel:${parish.phones.communication.replace(/\D/g,'')}`}
+                     className="hover:text-gold transition-colors">{parish.phones.communication}</a>
+                </span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={15} className="shrink-0 text-gold" />

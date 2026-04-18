@@ -19,6 +19,7 @@ interface FormBaseProps {
   fields:     Field[]
   submitLabel?: string
   successMessage?: string
+  emailSubject?: string  // sets the email subject via Formspree's _subject field
   children?: ReactNode  // extra content above the form
 }
 
@@ -27,6 +28,7 @@ export function FormBase({
   fields,
   submitLabel = 'Enviar',
   successMessage = 'Mensagem enviada com sucesso! Entraremos em contato em breve.',
+  emailSubject,
   children,
 }: FormBaseProps) {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
@@ -70,6 +72,9 @@ export function FormBase({
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
+      {emailSubject && (
+        <input type="hidden" name="_subject" value={emailSubject} />
+      )}
       {children}
 
       {fields.map(field => (
