@@ -112,7 +112,7 @@ export function Home() {
             <p className="text-ink-muted leading-relaxed mb-4">
               {/* TODO: replace with a short paragraph from the parish */}
               A Paróquia Nossa Senhora Aparecida está situada no Bairro Iguaçu, em Ipatinga/MG.
-              Comprometida com a evangelização e a pastoral, nossa comunidade reúne fiéis de diversos
+              Comprometida com a evangelização e a construção do reino de Deus, nossa Paróquia reúne fiéis de diversos
               bairros em torno da fé, da esperança e da caridade.
             </p>
             <p className="text-ink-muted leading-relaxed mb-6">
@@ -153,7 +153,7 @@ export function Home() {
             <div className="h-0.5 w-16 bg-gold mb-5" />
             <p className="text-white/80 leading-relaxed mb-4">
               Padroeira do Brasil, Nossa Senhora Aparecida é a protetora especial de nossa paróquia.
-              Sua imagem, encontrada nas águas do Rio Paraíba do Sul em 1717, é sinal da predilição
+              Sua imagem, encontrada nas águas do Rio Paraíba do Sul em 1717, é sinal da predileção
               de Maria pelo povo brasileiro.
             </p>
             <p className="text-white/80 leading-relaxed mb-6">
@@ -210,9 +210,9 @@ export function Home() {
             <h2 className="font-heading text-3xl font-bold mb-3">Seja um Dizimista</h2>
             <div className="h-0.5 w-16 bg-gold mb-5 mx-auto lg:mx-0" />
             <p className="text-white/80 leading-relaxed mb-6">
-              O dízimo é um ato de fé e amor à Igreja. Ao dizimar, você participa ativamente da missão
+              O dízimo é um ato de fé e amor à Igreja. Ao devolver o dízimo você participa ativamente da missão
               evangelizadora da nossa paróquia, sustentando as obras de caridade e as atividades pastorais.
-              Seja instrumento de Deus e fortaleça nossa comunidade!
+              Seja instrumento de Deus e fortaleça nossa Paróquia!
             </p>
             <Button asChild variant="gold">
               <a href="https://forms.gle/MNZUYaS5pAWNXrMC8" target="_blank" rel="noopener noreferrer">
