@@ -175,12 +175,9 @@ Formado por leigos comprometidos, o CAEP não é um órgão de decisão pastoral
 }
 
 // ── Social / newsletter ──────────────────────────────────────
-export const newsletters: { title: string; date: string; url: string }[] = [
-  { title: 'Informativo Paroquial — Edição 01/2026', date: '2026-01', url: '/informativos/informativo-01-2026.pdf' },
-  { title: 'Informativo Paroquial — Edição 02/2026', date: '2026-02', url: '/informativos/informativo-02-2026.pdf' },
-  { title: 'Informativo Paroquial — Edição 03/2026', date: '2026-03', url: '/informativos/informativo-03-2026.pdf' },
-  { title: 'Informativo Paroquial — Edição 04/2026', date: '2026-04', url: '/informativos/informativo-04-2026.pdf' },
-]
+// Auto-generated at build time from public/informativos/ — just drop a PDF named
+// informativo-MM-YYYY.pdf and it will appear here automatically.
+export { newsletters } from 'virtual:informativos'
 
 // ── Liturgical links ─────────────────────────────────────────
 export const liturgicalLinks = {
