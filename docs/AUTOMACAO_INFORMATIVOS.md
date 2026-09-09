@@ -31,6 +31,10 @@ Google Drive, commita os arquivos novos e o Vercel publica automaticamente.
 
 ### 2. Compartilhar a pasta do Drive com a Service Account
 
+> **Se a pasta já é pública** ("qualquer pessoa com o link" → Leitor), **pule
+> este passo** — a Service Account já enxerga a pasta. Só é necessário se a
+> pasta for privada.
+
 1. Copie o e-mail da Service Account (algo como
    `informativos-sync@projeto.iam.gserviceaccount.com`).
 2. No Google Drive, abra a pasta dos informativos → **Compartilhar** → cole esse
