@@ -1,0 +1,59 @@
+name: Sync informativos from Google Drive
+
+# Runs every Monday at 09:00 BRT (12:00 UTC) and on manual trigger.
+on:
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+
+concurrency:
+  group: sync-informativos
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install rclone
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Write service account credentials
+        run: |
+          printf '%s' "$GDRIVE_SA_JSON" > /tmp/sa.json
+        env:
+          GDRIVE_SA_JSON: ${{ secrets.GDRIVE_SA_JSON }}
+
+      - name: Pull PDFs from Drive folder
+        run: |
+          rclone copy ":drive:" public/informativos \
+            --drive-service-account-file=/tmp/sa.json \
+            --drive-root-folder-id="$GDRIVE_FOLDER_ID" \
+            --drive-acknowledge-abuse \
+            --include="informativ[eo]-[0-9][0-9][0-9][0-9]-[0-9][0-9].pdf" \
+            --verbose
+        env:
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+
+      - name: Clean up credentials
+        if: always()
+        run: rm -f /tmp/sa.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "informativos-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain public/informativos)" ]; then
+            git add public/informativos
+            git commit -m "Sync informativos from Google Drive ($(date -u +%Y-%m-%d))"
+            git push
+            echo "Changes pushed — Vercel will deploy automatically."
+          else
+            echo "No new informativos to sync."
+          fi

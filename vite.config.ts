@@ -15,10 +15,13 @@ function informativosPlugin() {
       if (id !== resolvedId) return
       const dir = resolve(__dirname, 'public/informativos')
       const files = fs.existsSync(dir) ? fs.readdirSync(dir) : []
+      // Files follow the Drive convention: informative-YYYY-MM.pdf
+      // (spelling tolerant: accepts both "informativo" and "informative")
+      const pattern = /^informativ[eo]-(\d{4})-(\d{2})\.pdf$/
       const newsletters = files
-        .filter((f: string) => /^informativo-\d{2}-\d{4}\.pdf$/.test(f))
+        .filter((f: string) => pattern.test(f))
         .map((f: string) => {
-          const [, mm, yyyy] = f.match(/^informativo-(\d{2})-(\d{4})\.pdf$/)!
+          const [, yyyy, mm] = f.match(pattern)!
           return {
             title: `Informativo Paroquial — Edição ${mm}/${yyyy}`,
             date: `${yyyy}-${mm}`,
